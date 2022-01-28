@@ -82,11 +82,10 @@
         Height:110px;
     }
     .footer .social-icon a{
-        font-size: 4px;
-        padding: 1px;    
+        font-size: 20px;    
     }
     .footer p{
         font-size: 1.1em;
-        padding-top: 1px;
+        padding-top: 10px;
     }
 }
