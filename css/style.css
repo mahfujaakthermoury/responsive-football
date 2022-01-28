@@ -46,7 +46,8 @@ nav a .fa-sign-in-alt{
 }
 .login{
     padding: 10px;
-    background-color: #E02C6D;}
+    background-color: #E02C6D;
+}
    /* conmebol start */
 .conmebol{
     display: flex;
@@ -58,6 +59,7 @@ nav a .fa-sign-in-alt{
 .details-text{
     margin-right: 100px;
     font-size: 64px;
+    font-weight: bold;
 }
 .watch-live{
     margin-right: 340px;
@@ -167,32 +169,11 @@ nav a .fa-sign-in-alt{
         color: gray;
         text-decoration: none;
         font-size: 32px;
-        padding: 1px;
-        
-        
+        padding: 1px;    
     }
     .footer p{
         color: #000000;
         font-size: 1.5em;
         padding-top: 20px;
     }
-    @media (max-width:688px) {
-        .header-area,.navbar ,.highlights-container{
-            width: 100%;
-        }
-     .highlights-container{
-            flex: 50%;
-            display: grid;  
-            align-items: center;
-            text-align: justify;
-        }
-        
-        .header-area, .all-players,.highlights{
-            grid-template-columns: repeat(1,1fr);
-            justify-content: center;
-        }
-        .player ,.highlights{
-            text-align:center;
-            flex-direction: column;
-        }
-    }
+    

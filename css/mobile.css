@@ -1,0 +1,92 @@
+@media (max-width:688px) {
+    main,.navbar{
+        width: 100%;
+        height: 100%;
+    }   
+    
+    .navbar a{
+        display: none;
+    }
+       /* conmebol start */
+    
+    .conmebol{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: left;
+        margin-top: 70px;
+        padding-left: 16px;
+    }
+    .details-text{
+       font-size: 36px;          
+    }
+    .watch-live{
+        Width:140px;
+        Height:25px;
+    }
+    .conmebol-banner{
+    margin-top: 50px;
+    }
+    .conmebol-banner img{
+        width: 330px;
+        height: 260px;
+        margin-left: 1px;
+    }
+     /*all player start  */
+    .all-players{
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+    }
+    .player {
+        text-align:center;
+        flex-direction: column;
+        text-align: left;
+    }
+     /*highlights  start */
+    .highlights{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content:left;
+        margin-top: 70px;
+        padding-bottom: 54px;
+    }
+    .highlights-details{
+        width: 330px;
+        height: 299px;    
+    }
+    .highlights-text p{
+        Width:330px;
+        text-align: left;
+    }
+    .highlights-text h1{
+        font-size:30px;   
+    }
+    .watch-now{
+        Width:140px;
+        Height:25px;
+    }
+    .highlights-banner{
+        margin-top: 50px;
+    }
+    .highlights-banner img{
+        width: 330px;
+        height: 260px;
+        margin-left: 1px;
+    }
+        /* footer  start*/
+    .footer{
+        margin-top: 1px;
+        padding-bottom: 50px;
+    }
+    .footer img{
+        Width:300px;
+        Height:110px;
+    }
+    .footer .social-icon a{
+        font-size: 4px;
+        padding: 1px;    
+    }
+    .footer p{
+        font-size: 1.1em;
+        padding-top: 1px;
+    }
+}
