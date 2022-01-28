@@ -3,13 +3,16 @@
         width: 100%;
         height: 100%;
     }   
-    
     .navbar a{
         display: none;
+    }
+    .login{
+        background-color:  #2d0cbe;
     }
        /* conmebol start */
     
     .conmebol{
+        
         display: grid;
         grid-template-columns: repeat(1,1fr);
         justify-content: left;
